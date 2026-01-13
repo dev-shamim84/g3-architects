@@ -1,0 +1,26 @@
+@media (max-width:576px) {
+  #container {
+     width: 100%;
+     max-width: 95%;
+     margin: 0 auto;
+  }
+  .navbar .nav-item {
+    display: none;
+  }
+  .banner-content h1 {
+    font-size: 40px ;
+  }
+  .btn-primary {
+     font-size: 1rem;
+  }
+}
+@media (min-width:576px) and (max-width:992px) {
+  #container {
+     width: 100%;
+     max-width: 95%;
+     margin: 0 auto;
+  }
+  .navbar .nav-item {
+    display: none;
+  }
+}
