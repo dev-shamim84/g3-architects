@@ -7,7 +7,7 @@
 
 #container {
    width: 100%;
-   max-width: 80%;
+   max-width: 88%;
    margin: 0 auto;
 }
 body {
@@ -28,10 +28,12 @@ body {
 .text-dark-3 {
      color: #727272;
 }
+.text-primary {
+   color: #FF900E;
+}
 .bg-secondary {
    background-color: rgba(255, 144, 14, 0.1);
 }
-
 .btn-primary {
    border: none;
    background-color: #FF900E;
@@ -86,4 +88,27 @@ body {
 .banner img {
    max-width: 100%;
    margin-top: 25px;
+}
+
+/* Teams section  */
+#teams-section {
+   padding-top: 80px;
+}
+.teams-parent {
+   align-items: center;
+   justify-content: space-between;
+   gap: 30px;
+}
+.teams-parent .teams-img-area {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+}
+ .teams-content-area h3 {
+  font-size: 45px;
+  margin: 0px 0px 10px 0px ;
+}
+ .teams-content-area p {
+  font-size: 16px;
+  margin: 0px 0px 15px 0px ;
 }
