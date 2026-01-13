@@ -16,6 +16,7 @@
   /* teams section */
   .teams-parent {
      flex-direction: column;
+     gap: 30px;
   }
 
   .teams-parent .teams-img-area  {
@@ -27,8 +28,23 @@
   .teams-content-area {
      text-align: center;
   }
+  .features-area {
+   flex-direction: column;
+   gap: 20px;
+  }
+  .features-area img {
+    max-width: 100%;
+  }
+  .feature-intro-area h2 {
+    font-size: 40px;
 }
-@media (min-width:576px) and (max-width:992px) {
+#exprience-bedge {
+    padding: 30px 42px;
+    margin-top: -100px;
+    margin-left: 15px;
+}
+}
+@media (min-width:577px) and (max-width:992px) {
   #container {
      width: 100%;
      max-width: 95%;
@@ -39,9 +55,23 @@
   }
    .teams-parent {
      flex-direction: column;
+     gap: 30px;
   }
-
   .teams-content-area {
      text-align: center;
   }
+
+  .features-area {
+   flex-direction: column;
+   gap: 20px;
+  }
+
+   .features-area img {
+    max-width: 100%;
+  }
+  #exprience-bedge {
+    padding: 30px 42px;
+    margin-top: -100px;
+    margin-left: 13px;
+}
 }

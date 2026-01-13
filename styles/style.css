@@ -4,7 +4,6 @@
    margin: 0;
    box-sizing: border-box;
 }
-
 #container {
    width: 100%;
    max-width: 88%;
@@ -13,12 +12,10 @@
 body {
     font-family: "Work Sans", sans-serif;
 }
-
 /* Shared styles */
 .display-flex {
    display: flex;
 }
-
 .text-dark-2 {
    color: #424242;
 }
@@ -85,19 +82,33 @@ body {
    margin: 15px 0px ;
    text-align: center;
 }
-.banner img {
+.banner img  {
    max-width: 100%;
-   margin-top: 25px;
+   margin:0 auto;
+}
+.banner-img {
+   margin-top: 30px;
 }
 
 /* Teams section  */
 #teams-section {
-   padding-top: 80px;
+   padding: 80px 0 50px 0 ;
+
 }
 .teams-parent {
    align-items: center;
-   justify-content: space-between;
-   gap: 30px;
+   gap: 37px;
+}
+
+.teams-content-area {
+    flex: 1;
+}
+
+.teams-img-area {
+   flex: 1;
+}
+.teams-img-area img {
+  max-width: 100%;
 }
 .teams-parent .teams-img-area {
   display: grid;
@@ -105,10 +116,54 @@ body {
   gap: 10px;
 }
  .teams-content-area h3 {
-  font-size: 45px;
+  font-size: 50px;
   margin: 0px 0px 10px 0px ;
 }
  .teams-content-area p {
   font-size: 16px;
   margin: 0px 0px 15px 0px ;
+}
+/* features-area */
+#feature-section {
+    padding: 50px 0 130px 0;
+}
+.features-area {
+    gap: 130px;
+}
+
+.feature-intro-area {
+    margin-bottom: 20px;
+}
+.feature-intro-area h2 {
+    font-size: 45px;
+}
+.feature-intro-area p {
+    font-size: 16px;
+    margin:15px 0px;
+}
+.feature-card {
+   padding: 30px;
+   box-shadow:0 4px 30px 0 rgba(0, 0, 0, 0.06)  ;
+   border-radius: 8px;
+   margin-bottom: 20px;
+}
+.feature-card h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #131313;
+}
+#exprience-bedge { 
+   padding: 30px 42px;
+   margin-top: -100px;
+   margin-left: -100px;
+}
+.exprience {
+    font-size: 60px;
+    font-weight: 600;
+}
+.exprience-text {
+    font-size: 20px;
+    font-weight: 400;
+
 }
